@@ -1,5 +1,5 @@
-import Image from "next/image";
-import React, { useEffect, useState } from "react";
+
+import React from "react";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
@@ -8,7 +8,6 @@ function SkeletonBoxHeader({ children }) {
 }
 
 export default function Home() {
-  const [loading, isLoading] = useState(true);
   return (
     <div>
       <div className="gradient w-full sm:h-80 h-96 text-white lg:p-0 p-4">
