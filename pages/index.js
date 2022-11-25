@@ -13,6 +13,7 @@ export default function Home() {
       <div className="gradient w-full sm:h-80 h-96 text-white lg:p-0 p-4">
         <div className="pt-4 max-w-screen-lg mx-auto">
           <div className="flex flex-col space-y-8">
+            <a href="https://www.dhairyashah.dev/">
             <div className="flex flex-row space-x-2 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,6 +40,7 @@ export default function Home() {
                 Slicker UI
               </h1>
             </div>
+            </a>
             <div>
               <h2 className="sm:text-3xl text-2xl font-Karla font-light">
                 Emporwering the Web,
@@ -62,7 +64,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="max-w-screen-lg mx-auto mt-4 leading-relaxed p-4">
+      <div className="max-w-screen-lg mx-auto mt-4 leading-relaxed p-4 font-inter">
+        <h2 className="text-2xl font-bold font-Karla mb-4">How to create skeleton loading in Next.js</h2>
+        <a href="https://www.dhairyashah.dev/" className="text-orange-500 font-bold font-Karla underline">Read full article</a>
         <Skeleton count={3} />
         <p className="mt-4">
         Officia deserunt cupidatat
